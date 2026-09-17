@@ -16724,3 +16724,16 @@ div.wpcf7-spam-blocked a,
 	color:#ffffff;
 	border-color:#8ae1ff;
 }
+/* Custom CSS to hide cart, checkout, account, and login */
+.shopping-cart-wrapper, .my-account-wrapper, .account-control, .loop-add-to-cart, .single_add_to_cart_button, .woocommerce-variation-add-to-cart, .cart, li.menu-item-6805, li.menu-item-6806, li.menu-item-6807, li.menu-item-6808, .ts-tiny-cart-wrapper { display: none !important; }
+
+/* Custom CSS to hide search box */
+.search-wrapper { display: none !important; }
+
+
+/* Improve Featured Products Layout - Revised */
+.vc_custom_1432611830762 .ts-single-product .product-wrapper { box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-radius: 12px; padding: 20px; background: #fff; border: 1px solid #eaeaea; transition: all 0.3s; margin: 10px; }
+.vc_custom_1432611830762 .ts-single-product .product-wrapper:hover { box-shadow: 0 10px 25px rgba(0,0,0,0.1); transform: translateY(-5px); }
+.vc_custom_1432611830762 .widget.ts-products-widget { box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-radius: 12px; padding: 20px; background: #fff; border: 1px solid #eaeaea; margin: 10px; }
+.vc_custom_1432611830762 .product_list_widget li { border-bottom: 1px solid #f0f0f0; padding-bottom: 15px; margin-bottom: 15px; }
+.vc_custom_1432611830762 .product_list_widget li:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
